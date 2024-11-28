@@ -1,0 +1,538 @@
+/* Reset de estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+/* Estilo global */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #f4f4f9, #e4f0f5);
+  color: black;
+  line-height: 1.6;
+}
+/* Estrucutra header */
+header {
+  text-align: center;
+  background-color: #007acc;
+  color: white;
+  margin: 1.25%;
+}
+/* Estructura imagen */
+.profile-image {
+  transform: scale(0.8);
+  width: 10%;
+  height: auto;
+}
+.profile-image:hover {
+  transform: scale(1);
+}
+/* --- --- --- --- --- */
+/* Inicio estructura navegador */
+/* Estructura navegador */
+.navigation-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* Estructura navegador lista principal */
+.navigation-bar-list {
+  display: flex; /* Asegura que cada item se ajuste al contenido */
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: white;
+}
+/* Estructura de la lista inactiva - activa */
+.nbl-item {
+  color: black;
+  list-style: none;
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  text-decoration: underline;
+}
+/* funcion hover para cuando pasamos el mouse por encima de la estructura determinada */
+.nbl-item:hover {
+  color: #007acc;
+}
+/* Estructura de las etiquetas de difereccion a */
+.nbl-item a {
+  color: black;
+}
+/* Estructura de las etiquetas de difereccion a funcion hover*/
+.nbl-item a:hover {
+  color: #007acc;
+}
+/* Estructura imagen */
+/* Fin estructura navegador */
+/* --- --- --- --- --- */
+/* Seccion 1 despues del Header */
+/* Seccion 1 titulo */
+.main-section1-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1.25%;
+}
+/* Seccion 1 subtitulo */
+.main-section1-subtitle {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 1.25%;
+}
+/* Seccion 1 columnas */
+.main-section1-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Seccion 1 columnas, columna 1 */
+.main-section1-text {
+  display: flex;
+  text-align: justify;
+  padding: 25px;
+}
+/* Seccion 1 columnas, columna 2 */
+.image-section1 {
+  transform: scale(1);
+  width: 250px;
+  height: auto;
+}
+.image-section1:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px #007acc;
+}
+/* Seccion 2 */
+/* Seccion 2 titulo*/
+.main-section2-title {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1.25%;
+}
+/* Seccion 2 subtitulo */
+.main-section2-subtitle {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 1.25%;
+}
+/* Seccion 2 columnas */
+.main-section2-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Seccion 2 columnas, columna 1 */
+.image-section2 {
+  transform: scale(0.9);
+  align-items: start;
+  width: 1000px;
+  height: auto;
+}
+.image-section2:hover {
+  transform: scale(1);
+  box-shadow: 5px 5px #007acc;
+}
+/* Seccion 2 columnas, columna 2 */
+.main-section2-text {
+  align-items: flex-end;
+  text-align: justify;
+  padding: 25px;
+}
+/* Seccion 3 */
+/* Seccion 3 titulo */
+.main-section3-title {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1.25%;
+}
+/* Seccion 3 subtitulo*/
+.main-section3-subtitle {
+  text-align: center;
+  font-size: 1.75em;
+  margin: 1.25%;
+}
+/* Seccion 3 columnas */
+.main-section3-columns {
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  gap: 30px;
+  margin-bottom: 32px;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Seccion 3 columnas, columna 1 a 4 titulos*/
+.columna-s3 h3 {
+  text-align: center;
+  align-items: bottom;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 5px 5px #007acc;
+}
+/* Seccion 3 columnas, columna 1 a 4 esquema*/
+.lista-de-estudios {
+  align-items: safe;
+  text-align: justify;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+/* Seccion 4 */
+/* Seccion 4 titulo */
+.main-section4-title {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1.25%;
+}
+/* Seccion 4 columnas */
+.main-section4-columns {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Seccion 4 columnas, columna 1 */
+.section4-columns-1 {
+  text-align: justify;
+  align-items: start;
+  margin-bottom: 16px;
+  box-shadow: 0px 5px #007acc;
+}
+/* Seccion 4 columnas, columna 1 */
+.section4-columns-1 h3 {
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 16px;
+  box-shadow: 0px 5px #007acc;
+}
+/* Seccion 4 columnas, columna 2 */
+.image-section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: auto;
+  border-radius: 100%;
+  transform: scale(1);
+}
+.image-section4:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px black;
+}
+/* Seccion 5 */
+/* Seccion 5 titulo */
+.main-section5-title {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1.25%;
+}
+/* Seccion 5 columnas */
+.main-section5-columns {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 1%;
+  padding-top: 0.5%;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Seccion 5 columnas titulos */
+.main-section5-subtitle h2 {
+  text-align: start;
+}
+/* Seccion 5 columnas cuerpo */
+.lista-de-empleos {
+  align-items: center;
+  text-align: justify;
+}
+/* Seccion 6 */
+/* Seccion 6 titulo */
+.main-section6-title {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1.25%;
+}
+/* Seccion 6 Columnas */
+/* Columnas contiene el formulario y las redes sociales */
+.main-section6-columns {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 80px;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Seccion 6 formulario */
+/* Seccion 6 formulario Edicion*/
+.main-section6-form {
+  width: 80%;
+}
+/* Seccion 6 formulario titulo h2*/
+.main-section6-form-columns {
+  display: flex;
+  flex-direction: column;
+}
+/* Seccion 6 formulario titulo h2*/
+.main-section6-form-columns h2 {
+  text-align: center;
+  font-size: 48px;
+}
+/* Seccion 6 formulario titulo h3*/
+.main-section6-form-columns h3 {
+  text-align: center;
+  font-size: 32px;
+}
+/* Seccion 6 formulario -formulario-*/
+.main-section6-form-columns form {
+  display: flex;
+  flex-direction: column;
+}
+/* Seccion 6 formulario -formulario- label (texto en pantalla)*/
+.main-section6-form-columns label {
+  font-size: 2rem;
+}
+/* Seccion 6 formulario -formulario- label (donde se ingresan los datos)*/
+.main-section6-form-columns input {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  transform: scale(0.9);
+}
+/* Seccion 6 formulario -formulario- label (donde se ingresan los datos)
+cuando pasa el cursor por encima (mouse) */
+.main-section6-form-columns input:hover {
+  transform: scale(1);
+  box-shadow: 5px 5px #007acc;
+}
+/* Seccion 6 formulario -formulario- textarea*/
+.main-section6-form-columns textarea {
+  font-size: 2rem;
+  transform: scale(0.9);
+  box-shadow: 5px 5px #007acc;
+}
+/* Contenedor para centrar el botón */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente */
+  background-color: #f5f5f5; /* Fondo suave para contraste */
+}
+/* Estilo general del botón */
+.btn-enviar {
+  display: inline-block; /* Permite ajustar el tamaño automáticamente */
+  padding: 12px 24px; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  color: white; /* Texto blanco */
+  background: linear-gradient(45deg, #007acc, #28a745); /* Gradiente de color */
+  border: none; /* Sin borde */
+  border-radius: 25px; /* Bordes redondeados */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar */
+  transition: all 0.3s ease; /* Animación suave */
+}
+/* Efecto al pasar el cursor */
+.btn-enviar:hover {
+  transform: translateY(-3px); /* Levanta el botón ligeramente */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+  background: linear-gradient(
+    45deg,
+    #28a745,
+    #007acc
+  ); /* Invertir el gradiente */
+}
+/* Efecto al hacer clic */
+.btn-enviar:active {
+  transform: translateY(1px); /* Baja ligeramente el botón */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Reduce la sombra */
+}
+/* Seccion 6 redes sociales */
+/* Seccion 6 redes sociales Edicion*/
+.main-section6-text {
+  width: 20%;
+  flex-direction: column;
+  text-align: center;
+}
+.main-section6-text a {
+  margin: 0px;
+}
+/* Logo de la imagen de instagram */
+.imagen-instagram {
+  margin-top: 16px;
+  width: 25%;
+  height: auto;
+  border-radius: 100%;
+}
+.imagen-instagram:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 5px orangered;
+}
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  margin: 1.25%;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #007acc;
+}
+/* Actividad menu oculto */
+.invisible-vertical-list-oculta {
+  display: none;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  right: 10px;
+  background-color: white;
+  border-radius: 20%;
+  padding: 25px;
+  margin-top: 10px;
+}
+.invisible-vertical-list-activa {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  right: 41%;
+  background-color: white;
+  border-radius: 20%;
+  padding: 40px;
+  margin-top: 10px;
+  box-shadow: 5px 5px #007acc;
+}
+.invisible-vertical-list-activa li:hover {
+  transform: scale(1.2);
+}
+/* --- --- --- --- */
+/* --- --- --- --- */
+/* PAGINA BLOGS */
+/* Cuerpo de los Blogs */
+.agregar-blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Cuerpo de lo Blogs titulo */
+.agregar-blogs h1 {
+  font-size: 3rem;
+}
+/* Cuerpo de lo Blogs formulario */
+.agregar-blogs form {
+  display: flex;
+  flex-direction: column;
+}
+/* Cuerpo de lo Blogs formulario label (texto) */
+.agregar-blogs label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+}
+/* Cuerpo de lo Blogs formulario input general */
+.agregar-blogs input {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+/* Cuerpo de lo Blogs formulario input hover) */
+.agregar-blogs input:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px #007acc;
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+/* Cuerpo de lo Blogs formulario textarea*/
+.agregar-blogs textarea {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+/* Cuerpo de lo Blogs formulario textarea hover */
+.agregar-blogs textarea:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px #007acc;
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+/* --- --- --- --- */
+/* --- --- --- --- */
+/* PAGINA BLOGS */
+/* Cuerpo de los Blogs agregados desde el menu blogs */
+/* Este es el del HTML */
+.blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+  margin-left: 15%;
+  padding-left: 7.5%;
+  margin-right: 15%;
+  padding-right: 7.5%;
+}
+/* Este es el que se genera en JS */
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: justify;
+}
+.blog img {
+  width: 100%;
+}

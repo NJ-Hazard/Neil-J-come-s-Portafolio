@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <!--Cuerpo de la pagina-->
+  <body>
+    <!--Principal-->
+    <main>
+      <!--Encabezado-->
+      <header>
+        <!--Contenedor de las partes (columnas)-->
+        <div class="container">
+          <!--Columna 1-->
+          <div class="image-container">
+            <a href="Index.html"
+              ><img
+                src="./profileimage.png"
+                alt="Foto de Perfil"
+                class="profile-image"
+              />
+            </a>
+          </div>
+          <!--Columna 2-->
+          <div>
+            <nav class="navigation-bar">
+              <ul class="navigation-bar-list">
+                <!-- Sección "Sobre mí" -->
+                <li>
+                  <div class="nbl-item" onclick="mostrarmenu()">
+                    Más Sobre Mí
+                    <ul class="invisible-vertical-list-oculta" id="menu">
+                      <li>
+                        <a href="Index.html#sobre-mi"> Sobre mí</a>
+                      </li>
+                      <li>
+                        <a href="Index.html#¿quien-es-neil-jacome?"
+                          >¿Quién es Neil Jácome?</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Index.html#experiencia-investigacion"
+                          >Experiencia en investigación</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Index.html#estudios-realizados">
+                          Estudios realizados</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Index.html#experiencia-empresarial"
+                          >Experiencia empresarial</a
+                        >
+                      </li>
+                      <li>
+                        <a href="Index.html#experiencia-profesional"
+                          >Experiencia profesional</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <!-- Sección "Servicios" -->
+                <li class="nbl-item">
+                  <a href="Blogs.html">Mis Blogs</a>
+                </li>
+                <!-- Sección "Contacto" -->
+                <li class="nbl-item">
+                  <a href="Index.html#contact">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!--Columna 3-->
+          <div class="main-header-title">
+            <h1>PORTAFOLIO DE SERVICIOS DE NEIL JÁCOME</h1>
+          </div>
+        </div>
+      </header>
+      <!--Seccion 1-->
+      <section>
+        <!--Contenedor de las columnas-->
+        <div class="agregar-blogs">
+          <h1>MIS BLOGS</h1>
+          <!--Estructura del formulario-->
+          <form id="blog-form">
+            <label for="imageInput">Subir Imagen</label>
+            <input type="file" id="imageInput" accept="image/*" required />
+            <label for="title">Titulo</label>
+            <input
+              type="text"
+              id="title"
+              placeholder="escribe-el-titulo"
+              required
+            />
+            <label for="description">Descripcion</label>
+            <textarea
+              id="description"
+              rows="10"
+              cols="150"
+              maxlength="1500"
+              placeholder="escribe-la-descripcion"
+              required
+            ></textarea>
+            <button class="btn-enviar" type="submit">Agregar Al Blog</button>
+          </form>
+        </div>
+        <hr />
+        <div id="blogscontainer" class="blogs-container"></div>
+      </section>
+      <!--Seccion Footer-->
+      <footer>
+        <!--Contenedor-->
+        <div class="container">
+          <!--Columna 1-->
+          <div class="footer">
+            <p>&copy; 2024 Neil Jácome. Todos los derechos reservados.</p>
+            <p>
+              | Diseñado por Neil Jácome. |
+              <a href="https://www.tusitio.com/terminos"
+                >| Términos y condiciones |</a
+              >
+              <a href="https://www.tusitio.com/privacy"
+                >| Política de privacidad |</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
